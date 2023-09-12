@@ -1,1 +1,11 @@
 /* Do not add any css, this is a bootstrap only assignment  */
+ .carousel-control.left,
+        .carousel-control.right {
+            background-image: none; /* Remove default background */
+            font-size: 30px; /* Adjust the arrow size */
+        }
+
+        /* Set the background color for active slide indicators */
+        .carousel-indicators .active {
+            background-color: #337ab7; /* Change to your desired color */
+        }
